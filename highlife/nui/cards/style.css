@@ -1,0 +1,60 @@
+::selection {
+  background-color: transparent !important;
+}
+
+body {
+  background-color: transparent;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.highlife {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.card {
+  width: 100vw;
+  height: 100vh;
+}
+
+.card {
+  align-self: center;
+}
+
+.card img {
+  height: auto !important;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.jail_card img {
+  max-width: 350px;
+}
+
+.chance_card img {
+  max-height: 350px;
+}
+
+.blueprint_coke_1 img {
+  max-width: 60%;
+}
+
+/* Hide All by default */
+/* .jail_card, .chance_card, .uno_reverse_card, .blueprint_coke_1 {
+    display: none;
+} */
+.jail_card,
+.chance_card,
+.uno_reverse_card,
+.blueprint_coke_1,
+.warrant {
+  display: none;
+}

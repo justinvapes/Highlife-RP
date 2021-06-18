@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CWeaponModelInfo__InitDataList>
+	<InitDatas>
+		<Item>
+		  <modelName>W_SR_L96A3</modelName>
+		  <txdName>W_SR_L96A3</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="50"/>
+		</Item>
+		<Item>
+		  <modelName>W_SR_L96A3_MAG1</modelName>
+		  <txdName>W_SR_L96A3_MAG1</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="50"/>
+		</Item>
+	</InitDatas>
+</CWeaponModelInfo__InitDataList>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+	<script src="assets/tilt.js"></script>
+	<script src="assets/assets.js"></script>
+	<link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+	<div class="highlife"></div>
+
+	<script type="text/javascript">
+		assets.map((asset, i) => {
+			if (asset.source) {
+				let element = document.createElement('div')
+				element.className = `card ${asset.className}`
+				element.innerHTML = `<img src="${asset.source}">`
+				document.querySelector('.highlife').appendChild(element);
+				VanillaTilt.init(document.querySelectorAll(`.card.${asset.className}`), asset.options);				
+			}
+
+		})
+
+		document.onkeyup = function (data) {
+			if (data.which == 27) {
+				$('.card').css('display', 'none');
+				$.post('http://highlife/NUIFocusOffHighLife', JSON.stringify({}));
+			}
+		}
+	</script>
+</body>
+
+</html>

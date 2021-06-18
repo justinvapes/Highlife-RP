@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html style="overflow-y: hidden; overflow-x: hidden; margin: 0; width:100%; height: 100%;">
+	<head>
+		<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+		<script src="spatialsound/SpatialSound.js" type="text/javascript"></script>
+
+		<script src="https://cdn.highliferoleplay.net/fivem/js/sentry.min.js" type="text/javascript"></script>
+
+	</head>
+	<body style="height: 100%; margin: 0; border: 0;">
+		<!-- <iframe id='dmv' src="https://hl.kissane.dev/dmv/" style="width:100%; height: 100%; border: 0; display: none;"></iframe> -->
+		<iframe id='dmv' src="dmv/index.html" style="width:100%; height: 100%; border: 0; display: none;"></iframe>
+		<!-- <iframe id='phone' src="phone/index.html" style="width:100%; height: 100%; border: 0; display: none;"></iframe> -->
+		<iframe id='cards' src="cards/index.html" style="width:100%; height: 100%; border: 0; display: none;"></iframe>
+		<iframe id='guide' src="guide/index.html" style="width:100%; height: 100%; border: 0; display: none;"></iframe>
+		<iframe id='banking' src="banking/index.html" style="width:100%; height: 100%; border: 0; display: none;"></iframe>
+		<iframe id='bodycam' src="bodycam/index.html" style="width:100%; height: 100%; border: 0; display: none;"></iframe>
+		<iframe id='disclaimer' src="disclaimer/index.html" style="width:100%; height: 100%; border: 0; display: none;"></iframe>
+	</body>
+
+	<script type="text/javascript">
+		$(function(){
+			var reportingError = false;
+
+			Sentry.init({ dsn: "https://de4a0b113f474960b4c630ae564da984@sentry.highliferoleplay.net/2" });
+
+			function numberWithCommas(x) {
+			    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+			}
+
+			window.onload = function(e){
+				var spatialsound = new AudioEngine();
+
+				window.addEventListener('message', function(event){
+					var item = event.data;
+
+					if (item.action == "start_audio_source") {
+						spatialsound.startAudioSource(item);
+					}
+					else if (item.action == "stop_audio_source") {
+						spatialsound.stopAudioSource(item);
+					}
+					else if (item.action == "update_position") {
+						spatialsound.setListenerData(item);
+					}
+					else if (item.action == "tweak_factors") {
+						spatialsound.tweakFactors(item.refDistance, item.rolloffFactor);
+					}
+
+					var dmv = $('#dmv').contents();
+					// var phone = $('#phone').contents();
+					var cards = $('#cards').contents();
+					var guide = $('#guide').contents();
+					var banking = $('#banking').contents();
+					var bodycam = $('#bodycam').contents();
+					var disclaimer = $('#disclaimer').contents();
+
+					if (item !== undefined && item.nui_reference === "sentry") {
+						reportingError = true;
+
+						Sentry.showReportDialog({
+							labelName: 'Username',
+							
+							user: {
+								name: item.username
+							},
+
+							title: "HighLife ran into an unexpected error.",
+							subtitle: "Tell us what happened below if you noticed anything amiss/if the below error relates in any way",
+							subtitle2: item.error,
+
+							eventId: item.issue_id
+						});
+
+						if (reportingError) {
+							function myLoop() {
+								setTimeout(function() {
+									if (document.querySelector('.sentry-error-embed-wrapper') === null) {
+										reportingError = false;
+
+										$.post('http://highlife/SentryLoseFocus', JSON.stringify({}));
+									}
+									else {
+										myLoop();
+									}
+								}, 500);
+							}
+
+							myLoop();
+						}
+					}
+
+					if (item !== undefined && item.nui_reference === "cake") {
+						var audio = new Audio('https://cdn.highliferoleplay.net/sound/lol.ogg');  
+						audio.type = 'audio/ogg';
+						audio.volume = 0.1;
+
+						try {
+							audio.play();
+						}
+						catch (err) {}
+					}
+
+					if (item !== undefined && item.nui_reference === "dmv") {
+						if (item.data.visible)
+						{
+							$('#dmv').css('display', 'block');
+						}
+						else
+						{
+							$('#dmv').css('display', 'none');
+						}
+
+						if (item.data.licenses !== undefined)
+						{
+							document.getElementById("dmv").contentWindow.eventHandler({
+								nui_reference: 'dmv_licences', 
+								data: {
+									dmv: item.data.licenses.dmv,
+									drive: item.data.licenses.drive,
+									drive_bike: item.data.licenses.drive_bike,
+									drive_truck: item.data.licenses.drive_truck,
+								}
+							});
+						}
+					}
+
+					// if (item !== undefined && item.nui_reference === "phone") {
+					// 	// document.getElementById("dmv").contentWindow.UpdateDetails(item.name, item.callsign);
+
+					// 	if (item.data.visible != null)
+					// 	{
+					// 		// document.getElementById("phone").contentWindow.eventHandler({
+					// 		// 	nui_reference: 'phone_visible', 
+					// 		// 	data: {
+					// 		// 		visible: item.data.visible
+					// 		// 	}
+					// 		// });
+
+					// 		if (item.data.visible == 'open')
+					// 		{
+					// 			$('#phone').css('display', 'block');
+					// 		}
+
+					// 		if (item.data.visible == 'close')
+					// 		{
+					// 			$('#phone').css('display', 'none');
+					// 		}
+					// 	}
+
+					// 	if (item.data.updateTime != null)
+					// 	{
+					// 		document.getElementById("phone").contentWindow.eventHandler({
+					// 			nui_reference: 'phone_time', 
+					// 			data: {
+					// 				time: item.data.updateTime
+					// 			}
+					// 		});
+					// 	}
+
+					// 	if (item.data.settings != null)
+					// 	{
+					// 		document.getElementById("phone").contentWindow.eventHandler({
+					// 			nui_reference: 'phone_settings', 
+					// 			data: {
+					// 				signal: item.data.settings.signal,
+					// 				number: item.data.settings.number,
+					// 				hasPhone: item.data.settings.hasPhone,
+					// 				identifier: item.data.settings.identifier,
+					// 				darkNetSimCard: item.data.settings.darkNetSimCard,
+					// 			}
+					// 		});
+					// 	}
+
+					// 	if (item.data.inputKey != null)
+					// 	{
+					// 		document.getElementById("phone").contentWindow.eventHandler({
+					// 			nui_reference: 'phone_keyControl', 
+					// 			data: {
+					// 				direction: item.data.inputKey
+					// 			}
+					// 		});
+					// 	}
+					// }
+
+					if (item !== undefined && item.nui_reference === "bodycam") {						
+						document.getElementById("bodycam").contentWindow.UpdateDetails(item.name, item.callsign);
+
+						if (item.force_close)
+						{
+							$('#bodycam').css('display', 'none');
+						}
+						else
+						{
+							if ($('#bodycam').is(":visible"))
+							{
+								$('#bodycam').css('display', 'none');
+							}
+							else 
+							{
+								$('#bodycam').css('display', 'block');
+							}
+						}
+					}
+
+					if (item !== undefined && item.nui_reference === "disclaimer") {
+						if (item.data.display === true) {
+							$('#disclaimer').css('display', 'block');
+							$('#disclaimer', disclaimer).delay(1000).fadeIn( "slow" );
+						}
+						else if (item.data.display === false) {
+							$('#disclaimer').css('display', 'none');
+							$('#disclaimer', disclaimer).fadeOut( "slow" );
+						}
+					}
+
+					if (item !== undefined && item.nui_reference === "banking") {
+						if (item.data.action === "open_interface"){
+							$('#banking').css('display', 'block');
+			                $('#waiting', banking).show();
+			                $('body', banking).addClass("active");
+							
+							if(item.data.isBank !== true){
+								$('#deposit', banking).css('display', 'none');
+								$('#transfer', banking).css('display', 'none');
+							}
+							else {
+								$('#deposit', banking).css('display', 'flex');
+								$('#transfer', banking).css('display', 'flex');
+							}
+						}
+						else if(item.data.action === "set_balance") {
+							// @TODO: remove this in the html
+							$('.curbalance', banking).html(numberWithCommas(item.data.balance));
+						}
+						else if (item.data.action === "close_interface"){
+							$('#banking').css('display', 'none');
+			                $('#waiting, #general, #transferUI, #withdrawUI, #depositUI, #topbar', banking).hide();
+
+			                $('body', banking).removeClass("active");
+						}
+					}
+
+					if (item !== undefined && item.nui_reference === "cards") {
+						if (item.data.showCard !== undefined) {
+							$('#cards').css('display', 'block');
+
+							$('.' + item.data.showCard, cards).css('display', 'block');
+						}
+						else if (item.data.showCard === "close") {
+							$('#cards').css('display', 'none');
+
+							$('.chance_card, .jail_card, .uno_reverse_card', cards).css('display', 'none');
+						}
+					}
+
+					if (item !== undefined && item.nui_reference === "guide") {
+						if(item.data.showPlayerMenu == true){
+							$('#guide').css('display', 'block');
+							$('.container-fluid', guide).delay(1000).fadeIn("slow");
+						}
+
+						$("#spawnbtn", guide).click(function(){
+							$.post('http://highlife/PassGuide', JSON.stringify({}));
+
+							$('#guide').css('display', 'none');
+							$('.container-fluid', guide).fadeOut("slow");
+
+							setTimeout(function(){
+								document.getElementById('guide').contentWindow.cycleItems(true);
+
+								$("#spawnbtn", guide).hide();
+								$("#left", guide).hide();
+								$("#right", guide).show();
+							}, 3000);
+					    });
+					}
+				});
+			};
+		});
+	</script>
+</html>

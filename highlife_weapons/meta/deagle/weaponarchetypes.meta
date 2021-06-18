@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CWeaponModelInfo__InitDataList>
+	<InitDatas>
+		<Item>
+		  <modelName>W_PI_DEAGLE</modelName>
+		  <txdName>W_PI_DEAGLE</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="50"/>
+		</Item>
+		<Item>
+		  <modelName>W_PI_DEAGLE_MAG1</modelName>
+		  <txdName>W_PI_DEAGLE_MAG1</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="50"/>
+		</Item>
+		<Item>
+		  <modelName>W_PI_DEAGLE_MAG2</modelName>
+		  <txdName>W_PI_DEAGLE_MAG2</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="50"/>
+		</Item>
+	</InitDatas>
+</CWeaponModelInfo__InitDataList>

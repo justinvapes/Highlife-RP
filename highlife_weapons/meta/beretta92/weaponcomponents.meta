@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CWeaponComponentInfoBlob>
+  <Data>
+  </Data>
+  <Infos>
+    <Item type="CWeaponComponentClipInfo">
+      <Name>COMPONENT_BERETTA92_CLIP_01</Name>
+      <Model>w_pi_beretta92_mag1</Model>
+      <LocName>WCT_CLIP1</LocName>
+      <LocDesc>WCD_CLIP1</LocDesc>
+      <AttachBone>AAPClip</AttachBone>
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="false" />
+      <CreateObject value="true" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+      <ClipSize value="12" />
+      <ReloadData ref="RELOAD_DEFAULT_WITH_EMPTIES" />
+	  <AmmoInfo />
+      <TracerFx />
+      <TracerFxSpacing value="-1" />
+      <TracerFxForceLast value="-1" />
+    </Item>
+    <Item type="CWeaponComponentClipInfo">
+      <Name>COMPONENT_BERETTA92_CLIP_02</Name>
+	  <Model>w_pi_beretta92_mag2</Model>
+      <LocName>WCT_CLIP2</LocName>
+      <LocDesc>WCD_CLIP2</LocDesc>
+      <AttachBone>AAPClip</AttachBone>
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="true" />
+      <CreateObject value="true" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="33" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+      <ClipSize value="16" />
+      <ReloadData ref="RELOAD_LARGE_WITH_EMPTIES" />
+	  <AmmoInfo />
+      <TracerFx />
+      <TracerFxSpacing value="-1" />
+      <TracerFxForceLast value="-1" />
+    </Item>
+    <Item type="CWeaponComponentClipInfo">
+      <Name>COMPONENT_BERETTA92_CLIP_FMJ</Name>
+      <Model>w_pi_BERETTA92_mag_fmj</Model>
+      <LocName>WCT_CLIP_FMJ</LocName>
+      <LocDesc>WCD_CLIP_FMJ</LocDesc>
+      <AttachBone>AAPClip</AttachBone>
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="true" />
+      <CreateObject value="true" />
+      <HudDamage value="10" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+      <ClipSize value="8" />
+      <ReloadData ref="RELOAD_DEFAULT_WITH_EMPTIES" />
+	  <AmmoInfo>AMMO_PISTOL_FMJ</AmmoInfo>
+      <TracerFx />
+      <TracerFxSpacing value="-1" />
+      <TracerFxForceLast value="-1" />
+    </Item>
+    <Item type="CWeaponComponentClipInfo">
+      <Name>COMPONENT_BERETTA92_CLIP_HOLLOWPOINT</Name>
+      <Model>w_pi_BERETTA92_mag_hp</Model>
+      <LocName>WCT_CLIP_HP</LocName>
+      <LocDesc>WCD_CLIP_HP</LocDesc>
+      <AttachBone>AAPClip</AttachBone>
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="true" />
+      <CreateObject value="true" />
+      <HudDamage value="10" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+      <ClipSize value="8" />
+      <ReloadData ref="RELOAD_DEFAULT_WITH_EMPTIES" />
+	  <AmmoInfo>AMMO_PISTOL_HOLLOWPOINT</AmmoInfo>
+      <TracerFx />
+      <TracerFxSpacing value="-1" />
+      <TracerFxForceLast value="-1" />
+    </Item>
+    <Item type="CWeaponComponentClipInfo">
+      <Name>COMPONENT_BERETTA92_CLIP_INCENDIARY</Name>
+      <Model>w_pi_BERETTA92_mag_inc</Model>
+      <LocName>WCT_CLIP_INC</LocName>
+      <LocDesc>WCD_CLIP_INC</LocDesc>
+      <AttachBone>AAPClip</AttachBone>
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="true" />
+      <CreateObject value="true" />
+      <HudDamage value="10" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+      <ClipSize value="8" />
+      <ReloadData ref="RELOAD_DEFAULT_WITH_EMPTIES" />
+	  <AmmoInfo>AMMO_PISTOL_INCENDIARY</AmmoInfo>
+      <TracerFx />
+      <TracerFxSpacing value="-1" />
+      <TracerFxForceLast value="-1" />
+    </Item>
+    <Item type="CWeaponComponentClipInfo">
+      <Name>COMPONENT_BERETTA92_CLIP_TRACER</Name>
+      <Model>w_pi_BERETTA92_mag_tr</Model>
+      <LocName>WCT_CLIP_TR</LocName>
+      <LocDesc>WCD_CLIP_TR</LocDesc>
+      <AttachBone>AAPClip</AttachBone>
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="true" />
+      <CreateObject value="true" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+      <ClipSize value="12" />
+      <ReloadData ref="RELOAD_DEFAULT_WITH_EMPTIES" />
+	  <AmmoInfo>AMMO_PISTOL_TRACER</AmmoInfo>
+      <TracerFx>bullet_tracer_gr_tintable</TracerFx>
+      <TracerFxSpacing value="3" />
+      <TracerFxForceLast value="3" />
+    </Item>
+    <Item type="CWeaponComponentInfo">
+      <Name>COMPONENT_BERETTA92_CAMO_SLIDE</Name>
+	  <Model>W_PI_BERETTA92_Slide_Camo1</Model>
+      <LocName>WCT_CAMO_1</LocName>
+      <LocDesc>WCD_INVALID</LocDesc>
+      <AttachBone>AAPCamo2</AttachBone>
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="false" />
+      <CreateObject value="true" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+    </Item>
+    <Item type="CWeaponComponentInfo">
+      <Name>COMPONENT_BERETTA92_CAMO</Name>
+	  <Model>w_pi_BERETTA92_camo1</Model>
+      <LocName>WCT_CAMO_1</LocName>
+      <LocDesc>WCD_INVALID</LocDesc>
+      <AttachBone>AAPCamo</AttachBone>
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="false" />
+      <CreateObject value="true" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+    </Item>
+	<Item type="CWeaponComponentInfo">
+      <Name>COMPONENT_BERETTA92_CAMO_02_SLIDE</Name>
+	  <Model>W_PI_BERETTA92_Slide_Camo2</Model>
+      <LocName>WCT_CAMO_1</LocName>
+      <LocDesc>WCD_INVALID</LocDesc>
+      <AttachBone>AAPCamo2</AttachBone>
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="false" />
+      <CreateObject value="true" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+    </Item>
+    <Item type="CWeaponComponentInfo">
+      <Name>COMPONENT_BERETTA92_CAMO_02</Name>
+	  <Model>w_pi_BERETTA92_camo2</Model>
+      <LocName>WCT_CAMO_2</LocName>
+      <LocDesc>WCD_INVALID</LocDesc>
+      <AttachBone>AAPCamo</AttachBone>
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="false" />
+      <CreateObject value="true" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+    </Item>
+	<Item type="CWeaponComponentInfo">
+      <Name>COMPONENT_BERETTA92_CAMO_03_SLIDE</Name>
+	  <Model>W_PI_BERETTA92_Slide_Camo3</Model>
+      <LocName>WCT_CAMO_1</LocName>
+      <LocDesc>WCD_INVALID</LocDesc>
+      <AttachBone>AAPCamo2</AttachBone>
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="false" />
+      <CreateObject value="true" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+    </Item>
+    <Item type="CWeaponComponentInfo">
+      <Name>COMPONENT_BERETTA92_CAMO_03</Name>
+	  <Model>w_pi_BERETTA92_camo3</Model>
+      <LocName>WCT_CAMO_3</LocName>
+      <LocDesc>WCD_INVALID</LocDesc>
+      <AttachBone>AAPCamo</AttachBone>
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="false" />
+      <CreateObject value="true" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+    </Item>
+	<Item type="CWeaponComponentInfo">
+      <Name>COMPONENT_BERETTA92_CAMO_04_SLIDE</Name>
+	  <Model>W_PI_BERETTA92_Slide_Camo4</Model>
+      <LocName>WCT_CAMO_1</LocName>
+      <LocDesc>WCD_INVALID</LocDesc>
+      <AttachBone>AAPCamo2</AttachBone>
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="false" />
+      <CreateObject value="true" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+    </Item>
+    <Item type="CWeaponComponentInfo">
+      <Name>COMPONENT_BERETTA92_CAMO_04</Name>
+	  <Model>w_pi_BERETTA92_camo4</Model>
+      <LocName>WCT_CAMO_4</LocName>
+      <LocDesc>WCD_INVALID</LocDesc>
+      <AttachBone>AAPCamo</AttachBone>
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="false" />
+      <CreateObject value="true" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+    </Item>
+	<Item type="CWeaponComponentInfo">
+      <Name>COMPONENT_BERETTA92_CAMO_05_SLIDE</Name>
+	  <Model>W_PI_BERETTA92_Slide_Camo5</Model>
+      <LocName>WCT_CAMO_1</LocName>
+      <LocDesc>WCD_INVALID</LocDesc>
+      <AttachBone>AAPCamo2</AttachBone>
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="false" />
+      <CreateObject value="true" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+    </Item>
+    <Item type="CWeaponComponentInfo">
+      <Name>COMPONENT_BERETTA92_CAMO_05</Name>
+	  <Model>w_pi_BERETTA92_camo5</Model>
+      <LocName>WCT_CAMO_5</LocName>
+      <LocDesc>WCD_INVALID</LocDesc>
+      <AttachBone>AAPCamo</AttachBone>
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="false" />
+      <CreateObject value="true" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+    </Item>
+	<Item type="CWeaponComponentInfo">
+      <Name>COMPONENT_BERETTA92_CAMO_06_SLIDE</Name>
+	  <Model>W_PI_BERETTA92_Slide_Camo6</Model>
+      <LocName>WCT_CAMO_1</LocName>
+      <LocDesc>WCD_INVALID</LocDesc>
+      <AttachBone>AAPCamo2</AttachBone>
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="false" />
+      <CreateObject value="true" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+    </Item>
+    <Item type="CWeaponComponentInfo">
+      <Name>COMPONENT_BERETTA92_CAMO_06</Name>
+	  <Model>w_pi_BERETTA92_camo6</Model>
+      <LocName>WCT_CAMO_6</LocName>
+      <LocDesc>WCD_INVALID</LocDesc>
+      <AttachBone>AAPCamo</AttachBone>
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="false" />
+      <CreateObject value="true" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+    </Item>
+	<Item type="CWeaponComponentInfo">
+      <Name>COMPONENT_BERETTA92_CAMO_07_SLIDE</Name>
+	  <Model>W_PI_BERETTA92_Slide_Camo7</Model>
+      <LocName>WCT_CAMO_1</LocName>
+      <LocDesc>WCD_INVALID</LocDesc>
+      <AttachBone>AAPCamo2</AttachBone>
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="false" />
+      <CreateObject value="true" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+    </Item>
+    <Item type="CWeaponComponentInfo">
+      <Name>COMPONENT_BERETTA92_CAMO_07</Name>
+	  <Model>w_pi_BERETTA92_camo7</Model>
+      <LocName>WCT_CAMO_7</LocName>
+      <LocDesc>WCD_INVALID</LocDesc>
+      <AttachBone>AAPCamo</AttachBone>
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="false" />
+      <CreateObject value="true" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+    </Item>
+	<Item type="CWeaponComponentInfo">
+      <Name>COMPONENT_BERETTA92_CAMO_08_SLIDE</Name>
+	  <Model>W_PI_BERETTA92_Slide_Camo8</Model>
+      <LocName>WCT_CAMO_1</LocName>
+      <LocDesc>WCD_INVALID</LocDesc>
+      <AttachBone>AAPCamo2</AttachBone>
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="false" />
+      <CreateObject value="true" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+    </Item>
+    <Item type="CWeaponComponentInfo">
+      <Name>COMPONENT_BERETTA92_CAMO_08</Name>
+	  <Model>w_pi_BERETTA92_camo8</Model>
+      <LocName>WCT_CAMO_8</LocName>
+      <LocDesc>WCD_INVALID</LocDesc>
+      <AttachBone>AAPCamo</AttachBone>
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="false" />
+      <CreateObject value="true" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+    </Item>
+	<Item type="CWeaponComponentInfo">
+      <Name>COMPONENT_BERETTA92_CAMO_09_SLIDE</Name>
+	  <Model>W_PI_BERETTA92_Slide_Camo9</Model>
+      <LocName>WCT_CAMO_1</LocName>
+      <LocDesc>WCD_INVALID</LocDesc>
+      <AttachBone>AAPCamo2</AttachBone>
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="false" />
+      <CreateObject value="true" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+    </Item>
+    <Item type="CWeaponComponentInfo">
+      <Name>COMPONENT_BERETTA92_CAMO_09</Name>
+	  <Model>w_pi_BERETTA92_camo9</Model>
+      <LocName>WCT_CAMO_9</LocName>
+      <LocDesc>WCD_INVALID</LocDesc>
+      <AttachBone>AAPCamo</AttachBone>
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="false" />
+      <CreateObject value="true" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+    </Item>
+	<Item type="CWeaponComponentInfo">
+      <Name>COMPONENT_BERETTA92_CAMO_10_SLIDE</Name>
+	  <Model>W_PI_BERETTA92_Slide_Camo10</Model>
+      <LocName>WCT_CAMO_1</LocName>
+      <LocDesc>WCD_INVALID</LocDesc>
+      <AttachBone>AAPCamo2</AttachBone>
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="false" />
+      <CreateObject value="true" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+    </Item>
+    <Item type="CWeaponComponentInfo">
+      <Name>COMPONENT_BERETTA92_CAMO_10</Name>
+	  <Model>w_pi_BERETTA92_camo10</Model>
+      <LocName>WCT_CAMO_10</LocName>
+      <LocDesc>WCD_INVALID</LocDesc>
+      <AttachBone>AAPCamo</AttachBone>
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="false" />
+      <CreateObject value="true" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+    </Item>
+	<Item type="CWeaponComponentInfo">
+      <Name>COMPONENT_BERETTA92_CAMO_IND_01_SLIDE</Name>
+	  <Model>W_PI_BERETTA92_Camo_Sl_Ind1</Model>
+      <LocName>WCT_CAMO_IND</LocName>
+      <LocDesc>WCD_INVALID</LocDesc>
+      <AttachBone>AAPCamo2</AttachBone>
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="false" />
+      <CreateObject value="true" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+    </Item>
+    <Item type="CWeaponComponentInfo">
+      <Name>COMPONENT_BERETTA92_CAMO_IND_01</Name>
+	  <Model>w_pi_BERETTA92_camo_ind1</Model>
+      <LocName>WCT_CAMO_IND</LocName>
+      <LocDesc>WCD_INVALID</LocDesc>
+      <AttachBone>AAPCamo</AttachBone>
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="false" />
+      <CreateObject value="true" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+    </Item>
+  </Infos>
+  <InfoBlobName>DLC - Addons</InfoBlobName>
+</CWeaponComponentInfoBlob>

@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CWeaponComponentInfoBlob>
+  <Data>
+  </Data>
+  <Infos>
+    <Item type="CWeaponComponentInfo">
+      <Name>COMPONENT_MOSSBERG590_CAMO</Name>
+	  <Model>w_sg_pumpshotgunmk2_camo1</Model>
+      <LocName>WCT_CAMO_1</LocName>
+      <LocDesc>WCD_INVALID</LocDesc>
+      <AttachBone>AAPCamo</AttachBone>
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="false" />
+      <CreateObject value="true" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+    </Item>
+    <Item type="CWeaponComponentInfo">
+      <Name>COMPONENT_MOSSBERG590_CAMO_02</Name>
+	  <Model>w_sg_pumpshotgunmk2_camo2</Model>
+      <LocName>WCT_CAMO_2</LocName>
+      <LocDesc>WCD_INVALID</LocDesc>
+      <AttachBone>AAPCamo</AttachBone>
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="false" />
+      <CreateObject value="true" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+    </Item>
+    <Item type="CWeaponComponentInfo">
+      <Name>COMPONENT_MOSSBERG590_CAMO_03</Name>
+	  <Model>w_sg_pumpshotgunmk2_camo3</Model>
+      <LocName>WCT_CAMO_3</LocName>
+      <LocDesc>WCD_INVALID</LocDesc>
+      <AttachBone>AAPCamo</AttachBone>
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="false" />
+      <CreateObject value="true" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+    </Item>
+    <Item type="CWeaponComponentInfo">
+      <Name>COMPONENT_MOSSBERG590_CAMO_04</Name>
+	  <Model>w_sg_pumpshotgunmk2_camo4</Model>
+      <LocName>WCT_CAMO_4</LocName>
+      <LocDesc>WCD_INVALID</LocDesc>
+      <AttachBone>AAPCamo</AttachBone>
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="false" />
+      <CreateObject value="true" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+    </Item>
+    <Item type="CWeaponComponentInfo">
+      <Name>COMPONENT_MOSSBERG590_CAMO_05</Name>
+	  <Model>w_sg_pumpshotgunmk2_camo5</Model>
+      <LocName>WCT_CAMO_5</LocName>
+      <LocDesc>WCD_INVALID</LocDesc>
+      <AttachBone>AAPCamo</AttachBone>
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="false" />
+      <CreateObject value="true" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+    </Item>
+    <Item type="CWeaponComponentInfo">
+      <Name>COMPONENT_MOSSBERG590_CAMO_06</Name>
+	  <Model>w_sg_pumpshotgunmk2_camo6</Model>
+      <LocName>WCT_CAMO_6</LocName>
+      <LocDesc>WCD_INVALID</LocDesc>
+      <AttachBone>AAPCamo</AttachBone>
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="false" />
+      <CreateObject value="true" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+    </Item>
+    <Item type="CWeaponComponentInfo">
+      <Name>COMPONENT_MOSSBERG590_CAMO_07</Name>
+	  <Model>w_sg_pumpshotgunmk2_camo7</Model>
+      <LocName>WCT_CAMO_7</LocName>
+      <LocDesc>WCD_INVALID</LocDesc>
+      <AttachBone>AAPCamo</AttachBone>
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="false" />
+      <CreateObject value="true" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+    </Item>
+    <Item type="CWeaponComponentInfo">
+      <Name>COMPONENT_MOSSBERG590_CAMO_08</Name>
+	  <Model>w_sg_pumpshotgunmk2_camo8</Model>
+      <LocName>WCT_CAMO_8</LocName>
+      <LocDesc>WCD_INVALID</LocDesc>
+      <AttachBone>AAPCamo</AttachBone>
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="false" />
+      <CreateObject value="true" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+    </Item>
+    <Item type="CWeaponComponentInfo">
+      <Name>COMPONENT_MOSSBERG590_CAMO_09</Name>
+	  <Model>w_sg_pumpshotgunmk2_camo9</Model>
+      <LocName>WCT_CAMO_9</LocName>
+      <LocDesc>WCD_INVALID</LocDesc>
+      <AttachBone>AAPCamo</AttachBone>
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="false" />
+      <CreateObject value="true" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+    </Item>
+    <Item type="CWeaponComponentInfo">
+      <Name>COMPONENT_MOSSBERG590_CAMO_10</Name>
+	  <Model>w_sg_pumpshotgunmk2_camo10</Model>
+      <LocName>WCT_CAMO_10</LocName>
+      <LocDesc>WCD_INVALID</LocDesc>
+      <AttachBone>AAPCamo</AttachBone>
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="false" />
+      <CreateObject value="true" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+    </Item>
+    <Item type="CWeaponComponentInfo">
+      <Name>COMPONENT_MOSSBERG590_CAMO_IND_01</Name>
+	  <Model>w_sg_pumpshotgunmk2_camo_ind1</Model>
+      <LocName>WCT_CAMO_IND</LocName>
+      <LocDesc>WCD_INVALID</LocDesc>
+      <AttachBone>AAPCamo</AttachBone>
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="false" />
+      <CreateObject value="true" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+    </Item>
+    <Item type="CWeaponComponentClipInfo">
+      <Name>COMPONENT_MOSSBERG590_CLIP_01</Name>
+      <Model>w_sg_pumpshotgunmk2_mag1</Model>
+      <LocName>WCT_SHELL</LocName>
+      <LocDesc>WCD_SHELL</LocDesc>
+      <AttachBone>AAPClip</AttachBone>
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="false" />
+      <CreateObject value="true" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+      <ClipSize value="8" />
+      <ReloadData ref="RELOAD_DEFAULT" />
+    </Item>
+    <Item type="CWeaponComponentClipInfo">
+      <Name>COMPONENT_MOSSBERG590_CLIP_ARMORPIERCING</Name>
+      <Model>w_sg_pumpshotgunmk2_mag_ap</Model>
+      <LocName>WCT_SHELL_AP</LocName>
+      <LocDesc>WCD_SHELL_AP</LocDesc>
+      <AttachBone>AAPClip</AttachBone>
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="true" />
+      <CreateObject value="true" />
+      <HudDamage value="10" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+      <ClipSize value="8" />
+      <ReloadData ref="RELOAD_DEFAULT" />
+	  <AmmoInfo>AMMO_SHOTGUN_ARMORPIERCING</AmmoInfo>
+      <TracerFx />
+      <TracerFxSpacing value="-1" />
+      <TracerFxForceLast value="-1" />
+	  <ShellFx>eject_shotgun_ap</ShellFx>
+	  <ShellFxFP>eject_shotgun_ap_fp</ShellFxFP>
+	  <BulletsInBatch value="0" />
+    </Item>
+    <Item type="CWeaponComponentClipInfo">
+      <Name>COMPONENT_MOSSBERG590_CLIP_EXPLOSIVE</Name>
+      <Model>w_sg_pumpshotgunmk2_mag_exp</Model>
+      <LocName>WCT_SHELL_EX</LocName>
+      <LocDesc>WCD_SHELL_EX</LocDesc>
+      <AttachBone>AAPClip</AttachBone>
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="true" />
+      <CreateObject value="true" />
+      <HudDamage value="10" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+      <ClipSize value="8" />
+      <ReloadData ref="RELOAD_DEFAULT" />
+	  <AmmoInfo>AMMO_SHOTGUN_EXPLOSIVE</AmmoInfo>
+      <TracerFx>bullet_tracer</TracerFx>
+      <TracerFxSpacing value="-1" />
+      <TracerFxForceLast value="-1" />
+	  <ShellFx>eject_shotgun_exp</ShellFx>
+	  <ShellFxFP>eject_shotgun_exp_fp</ShellFxFP>
+	  <BulletsInBatch value="1" />
+    </Item>
+    <Item type="CWeaponComponentClipInfo">
+      <Name>COMPONENT_MOSSBERG590_CLIP_HOLLOWPOINT</Name>
+      <Model>w_sg_pumpshotgunmk2_mag_hp</Model>
+      <LocName>WCT_SHELL_HP</LocName>
+      <LocDesc>WCD_SHELL_HP</LocDesc>
+      <AttachBone>AAPClip</AttachBone>
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="true" />
+      <CreateObject value="true" />
+     <HudDamage value="10" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+      <ClipSize value="8" />
+      <ReloadData ref="RELOAD_DEFAULT" />
+	  <AmmoInfo>AMMO_SHOTGUN_HOLLOWPOINT</AmmoInfo>
+      <TracerFx />
+      <TracerFxSpacing value="-1" />
+      <TracerFxForceLast value="-1" />
+	  <ShellFx>eject_shotgun_hp</ShellFx>
+	  <ShellFxFP>eject_shotgun_hp_fp</ShellFxFP>
+	  <BulletsInBatch value="0" />
+    </Item>	
+    <Item type="CWeaponComponentClipInfo">
+      <Name>COMPONENT_MOSSBERG590_CLIP_INCENDIARY</Name>
+      <Model>w_sg_pumpshotgunmk2_mag_inc</Model>
+      <LocName>WCT_SHELL_INC</LocName>
+      <LocDesc>WCD_SHELL_INC</LocDesc>
+      <AttachBone>AAPClip</AttachBone>
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="true" />
+      <CreateObject value="true" />
+      <HudDamage value="10" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+      <ClipSize value="8" />
+      <ReloadData ref="RELOAD_DEFAULT" />
+	  <AmmoInfo>AMMO_SHOTGUN_INCENDIARY</AmmoInfo>
+      <TracerFx>tracer_xm_shotgun_inc</TracerFx>
+      <TracerFxSpacing value="-1" />
+      <TracerFxForceLast value="-1" />
+	  <ShellFx>eject_shotgun_inc</ShellFx>
+	  <ShellFxFP>eject_shotgun_inc_fp</ShellFxFP>
+	  <BulletsInBatch value="0" />
+    </Item>
+  </Infos>
+  <InfoBlobName>DLC - Addons</InfoBlobName>
+</CWeaponComponentInfoBlob>

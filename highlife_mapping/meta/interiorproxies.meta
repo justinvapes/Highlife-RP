@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SInteriorOrderData>
+  <startFrom value="2000"/> <!-- 2000 is from vespucci - 1069 -->
+  <proxies>
+    <!-- Bluehole -->
+    <Item>hick2</Item>
+    <Item>dpbar</Item>
+    <!-- Grove 24/7 -->
+    <Item>liqsklep</Item>
+    <!-- Larrys Motors -->
+    <Item>larrys_rv</Item>
+    <!-- Gym -->
+    <Item>pakiernia</Item>
+    <!-- Legion 24/7 -->
+    <Item>legion247</Item>
+    <!-- Taxi HQ -->
+    <Item>int_taxi_milo_</Item>
+  	<!-- Krapea -->
+  	<Item>dt1_occl_04</Item>
+    <Item>dt1_occl_07</Item>
+    <Item>hei_dt1_occl_04</Item>
+    <Item>hei_dt1_occl_07</Item>
+    <Item>pw-krapea_milo_</Item>
+    <!-- Grapeseed Bank -->
+    <Item>grape_bank_milo_</Item>
+    <!-- Pops Diner -->
+    <Item>gabz_diner_milo_</Item>
+    <!-- Luxury Dealership -->
+    <Item>int_luxury_milo_</Item>
+	<!-- Lawyers Office -->
+	<Item>verpi_jobc_milo_</Item>
+	<Item>hei_dt1_occl_02</Item>
+    <!-- Weazel News -->
+    <Item>kt1_occl_01</Item>
+    <Item>int_wnews_milo_</Item>
+    <Item>hei_kt1_12_strm_0</Item>
+    <!-- Legion Hotdog -->
+    <Item>int_hotdogs_milo_</Item>
+    <!-- Pillbox -->
+    <Item>hei_dt1_06_strm_0</Item>
+    <!-- Pig Pen -->
+    <Item>hei_dt1_occl_05</Item>
+    <Item>gta5interiors_krnt</Item>
+    <!-- Cinema -->
+    <Item>v_cinemavine_milo_</Item>
+    <!-- Court -->
+    <Item>retssal_bobo_milo_</Item>
+    <Item>gabz_pillbox_milo_</Item>
+    <!-- Grapeseed Liquor Store -->
+    <Item>grape_liquor_milo_</Item>
+    <!-- Zancudo 24/7 -->
+    <Item>west_hw_shop_milo_</Item>
+    <!-- Digital Den -->
+    <Item>int_magazel1_milo_</Item>
+    <!-- DMV -->
+    <Item>int_autoscool_milo_</Item>
+    <!-- Trailer interior -->
+    <Item>trailer_interor_milo_</Item>
+    <!-- Church -->
+    <Item>ch1_occl_01</Item>
+    <Item>e_49_church_int_milo_</Item>
+    <!-- Prison -->
+    <Item>int_prison_main_milo_</Item>
+    <!-- Paleto 24/7 -->
+    <Item>paleto_shop_247_milo_</Item>
+    <!-- Sandy Medical -->
+    <Item>slb2k11_sandymedical_mlo</Item>
+    <!-- Sandy PD -->
+    <Item>int_sheriff_milo_</Item>
+    <Item>lr_cs4_10_interior_v_sheriff_milo_</Item>
+    <!-- Split Sides Comedy Club -->
+    <Item>splitsides_milo</Item>
+    <Item>apa_ss1_12_interior_v_comedy_milo_</Item>
+    <!-- Paleto PD -->
+    <Item>paleto_mlo</Item>
+    <Item>cs1_16_interior_v_sheriff2_milo_</Item>
+    <Item>hei_cs1_16_interior_v_sheriff2_milo_</Item>
+    <!-- MRPD -->
+    <Item>hei_dt1_19_interior_0_heist_police_dlc_milo_</Item>
+	
+  </proxies>
+</SInteriorOrderData>
